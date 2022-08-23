@@ -16,7 +16,7 @@ document.addEventListener('scroll', function() {
 	const reveal = document.querySelector('.reveal');
 	
 	if (isVisible(reveal)) {
-		reveal.classList.add('reveal_active');
+		reveal.classList.toggle('reveal_active');
 	}
 
 })
